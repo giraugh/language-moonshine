@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "name": "language-moonshine",
+  "description": "MoonShine language support in Atom",
+  "license": "MIT",
+  "author": "Retr0verse",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "repository": "https://github.com/retroverse/language-moonshine.git",
+  "bugs": "https://github.com/retroverse/language-moonshine/issues"
+}
