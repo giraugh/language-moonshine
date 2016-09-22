@@ -91,6 +91,10 @@
       "name": "comment.sblock.shine"
     },
     {
+      "match": "&&",
+      "name": "keyword.control.andop.shine"
+    },
+    {
       "begin": "(?<!-)--",
       "captures": {
         "0": {
@@ -107,7 +111,7 @@
       ]
     },
     {
-      "match": "(?x)\\b(?<![\\.\\$])(\\b(if|is|isnt|&&|then|else|elseif|export|import|from|switch|and|or|not|when|with|using|do|for|in|while|return|unless|continue|break|local)\\b)(?!\\s*:)\\b",
+      "match": "(?x)\\b(?<![\\.\\$])(\\b(if|is|isnt|then|else|elseif|export|import|from|switch|and|or|not|when|with|using|do|for|in|while|return|unless|continue|break|local)\\b)(?!\\s*:)\\b",
       "name": "keyword.control.shine"
     },
     {
@@ -224,7 +228,7 @@
       "name": "support.function.shine"
     },
     {
-      "match": "@?[A-Za-z_]\\w+(?=\\(|!|[ ]+(\"|'|\\{|-?(?!if|then|else|elseif|export|import|from|and|or|not|with|for|in|while|return|unless|continue|break|local)\\w+))",
+      "match": "@?[A-Za-z_]\\w+(?=\\(|!|[ ]+(\"|'|\\{|-?(?!if|then|else|elseif|export|import|from|and|or|not|with|for|in|while|return|unless|continue|break|local|is|isnt)\\w+))",
       "name": "support.function.shine"
     },
     {
